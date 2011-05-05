@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, trxtest,
+ [{description, "trxtest"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'trxtest_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.

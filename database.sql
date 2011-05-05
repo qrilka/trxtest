@@ -1,0 +1,3 @@
+CREATE DATABASE trxtest;
+CREATE USER trxtest WITH PASSWORD 'trxtest';
+GRANT ALL PRIVILEGES ON DATABASE trxtest to trxtest;
